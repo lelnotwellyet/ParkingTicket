@@ -1,0 +1,112 @@
+﻿
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('images/carbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #222;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 40px auto;
+    max-width: 90%;
+    width: 700px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+    button:hover {
+        background: #555;
+        transform: scale(1.05);
+    }
+
+
+input[type="text"], input[type="datetime-local"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 250px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+input:focus {
+    border-color: #333;
+    background: #fff;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+footer {
+    margin-top: auto;
+    padding: 15px 0;
+    background: #333;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
